@@ -1,0 +1,107 @@
+body{
+    display:block;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #00c3ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.container
+{
+    position: relative;
+    background: url('pexels-faik-akmd-1025469.jpg') no-repeat center center;
+    height: 48rem;
+    width: 100%;
+    display: block;
+    left:0px;
+
+}
+.header
+{
+    height: 35px;
+    width:700px;
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    border-bottom:2px solid #0f0f0f;
+    padding-top: 50px;
+    font-size: 40px;
+    color:black;
+    font-weight: 800;
+    margin-left: 300px;
+    text-shadow: pink;
+}
+
+.head{
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+.btn{
+    position:absolute;
+    top: 8px;
+    margin-left: 250px;
+    
+}
+
+button{
+    height:40px;
+    width:150px;
+    margin-top: 10px;
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border: 1px solid black;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#data
+{
+    width:99%;
+    height:450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;
+}
+.table
+{
+    width:800px;
+}
+table{
+   
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+}
+table tr :hover{
+    
+    
+    border-radius: 4px solid red;
+    border-radius: 50%;
+}
+#loader {
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #444444;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+}
+  
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+  
+.center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
